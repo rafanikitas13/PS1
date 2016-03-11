@@ -1,6 +1,11 @@
 # Load data and packages 
 source("adaBoost.R")
 
+library(rpart)
+library(ggplot2)
+library(adabag)
+library(reshape2)
+
 if (!require("formula.tools")) install.packages("formula.tools"); library(formula.tools)
 if (!require("rpart")) install.packages("rpart"); library(rpart)
 
